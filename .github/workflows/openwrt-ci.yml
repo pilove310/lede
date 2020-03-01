@@ -1,7 +1,7 @@
 #
 # This is free software, lisence use MIT.
 # 
-# Copyright (C) 2019 P3TERX <https://p3terx.com>
+# Co#pyright (C) 2019 P3TERX <https://p3terx.com>
 # Copyright (C) 2019 KFERMercer <KFER.Mercer@gmail.com>
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
@@ -13,9 +13,9 @@ on:
  
  schedule:
       - cron: 0 20 * * *
- push:
-  branches: 
-      - master
+ # push:
+  # branches: 
+    #  - master
  release:
       types: [published]
  watch:
