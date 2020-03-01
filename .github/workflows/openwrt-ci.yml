@@ -18,8 +18,8 @@ on:
     #  - master
  release:
       types: [published]
-# watch:
- #     types: started
+ watch:
+      types: started
 
 env:
  SSH_ACTIONS: false
